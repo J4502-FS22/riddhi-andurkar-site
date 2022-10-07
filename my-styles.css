@@ -18,14 +18,16 @@ h1{
   font-family: 'Playfair Display', serif;
   font-size: 3rem;
   font-style: italic;
-  color: #1b2051
+  color: #1b2051;
+  text-align: center;
 }
 h2{
   font-family: 'Yrsa', serif;
   font-size: 2rem;
   font-style: normal;
   background-color: #1b2051;
-  color: #eaf6f7
+  color: #eaf6f7;
+  text-align: center;
 }
 h3{
   font-family: 'Inter Tight', sans-serif;
