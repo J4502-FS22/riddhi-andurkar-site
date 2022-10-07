@@ -1,0 +1,41 @@
+/* font-family: 'Inter Tight', sans-serif;
+font-family: 'Playfair Display', serif
+font-family: 'Yrsa', serif; */
+html{
+font-size: 20px
+}
+body {
+  width: 700px;
+  margin: 20px auto;
+  background-color: #eaf6f7;
+  font-family: 'Inter Tight', sans-serif;
+  color:#1b2051;
+}
+nav{
+  background-color: #eaf6f7
+}
+h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-style: italic;
+  color: #1b2051
+}
+h2{
+  font-family: 'Yrsa', serif;
+  font-size: 2rem;
+  font-style: normal;
+  background-color: #1b2051;
+  color: #eaf6f7
+}
+h3{
+  font-family: 'Inter Tight', sans-serif;
+  font-style: normal;
+  color: #eaf6f7;
+}
+a{
+  font-style: italic;
+  font-weight: lighter;
+}
+ul,ol{
+  list-style-type: none
+}
