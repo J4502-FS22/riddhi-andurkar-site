@@ -48,7 +48,7 @@ ul,ol{
 nav ul li{
   float: left;
   margin-right: 0.5em;
-  background-color: #eaf6f7;
   font-family: 'Inter Tight', sans-serif;
-  color:#1b2051
+  color:#1b2051;
+  background-color: #eaf6f7;
 }
