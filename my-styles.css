@@ -69,6 +69,12 @@ a{
   font-style: italic;
   font-weight: lighter;
 }
+
+li{
+  list-style-type: none;
+  font-style: italic;
+}
+
 ol li{
   text-transform: uppercase;
 }
