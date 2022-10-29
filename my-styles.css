@@ -166,11 +166,11 @@ font-weight: bold;
 @media (min-width: 800px) {
 
   .image-holder {
-    width: 250px;
+    width: 400px;
   }
 
   .text-holder {
-    width: calc(100% - 250px);
+    width: calc(100% - 400px);
   }
 
   nav li {
