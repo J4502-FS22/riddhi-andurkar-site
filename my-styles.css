@@ -21,12 +21,6 @@ main {
   margin: 1rem auto;
 }
 
-
-img {
-      display: block;
-      margin: 0 auto;
-    }
-
     /*beginning updated nav and ul, ol*/
 nav {
       color: #1b2051;
@@ -155,9 +149,6 @@ font-weight: bold;
     width: 70%;
   }
 }
-
-
-
 
 /*When the browser is at least 800px wide*/
 @media (min-width: 800px) {
