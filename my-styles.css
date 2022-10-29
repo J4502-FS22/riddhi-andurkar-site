@@ -143,16 +143,18 @@ nav a{
   text-holder{
     width: 70%;
   }
+
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  nav li{
+    width: 50%;
+  }
 }
 
-nav ul{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-nav li{
-  width: 50%;
-}
+
 
 
 /*When the browser is at least 800px wide*/
