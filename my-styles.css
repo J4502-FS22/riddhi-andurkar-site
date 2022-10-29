@@ -43,7 +43,7 @@ ol, li {
 
     /*end of updated nav and ul, ol*/
 nav a{
-  color: #eaf6f7
+  color: #eaf6f7;
 }
 h1{
   font-family: 'Playfair Display', serif;
@@ -140,14 +140,12 @@ nav a{
   nav ul{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+  }
+  nav li{
+    width: 50%
   }
 }
-
-
-
-
-
 
 
 
@@ -166,6 +164,7 @@ nav a{
   nav li {
     width: 25%;
   }
+}
 
   footer {
   background: #1b2051;
