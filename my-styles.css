@@ -114,7 +114,7 @@ font-weight: bold;
 /*media sections*/
 .media-holder {
   width: 100%;
-  margin: 0rem 0;
+  margin: 4rem 0;
   display: flex;
   flex-direction: row;
   gap: 1.2rem;
