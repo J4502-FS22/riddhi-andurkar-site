@@ -96,3 +96,18 @@ nav a{
   color: #eaf6f7;
   padding: 1rem;
 }
+
+.image-holder, .text-holder{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.image-holder img{
+  width: 100%
+  max-width: 250px
+  margin: 0 auto
+}
