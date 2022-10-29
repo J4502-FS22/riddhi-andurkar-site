@@ -46,6 +46,7 @@ nav a{
 a{
   font-style: italic;
   font-weight: lighter;
+  text-decoration: none;
 }
 
 h1{
@@ -53,16 +54,14 @@ h1{
   font-size: 3rem;
   font-style: italic;
   color: #1b2051;
+  margin:0;
 }
 h2{
   font-family: 'Yrsa', serif;
   font-size: 2rem;
   font-style: normal;
   color: #1b2051;
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-  box-sizing: border-box;
+  margin: 0;
 }
 h3{
   font-family: 'Inter Tight', sans-serif;
@@ -132,7 +131,7 @@ font-weight: bold;
 
 .image-holder img{
   width: 100%;
-  max-width: 300px;
+  max-width: 250px;
   margin: 0 auto;
 }
 
