@@ -112,6 +112,36 @@ nav a{
   margin: 0 auto
 }
 
+/*When the browser is at least 555px wide*/
+@media (min-width: 555px) {
+
+  media-holder{
+    flex-direction: row;
+  }
+
+  image-holder{
+    width: 30%;
+  }
+
+  text-holder{
+    width: 70%;
+  }
+
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+  }
+}
+
+
+
+
+
+
+
+
+
 /*When the browser is at least 800px wide*/
 @media (min-width: 800px) {
 
