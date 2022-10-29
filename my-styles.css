@@ -88,12 +88,13 @@ nav li, nav li a{
 }
 
 nav a{
-  color: #1b2051;
+  background-color:#1b2051
+  color: #eaf6f7;
 }
 
 .active{
-  background-color: #1b2051;
-  color: #eaf6f7;
+  background-color: #eaf6f7;
+  color: #1b2051;
   padding: 1rem;
 }
 
