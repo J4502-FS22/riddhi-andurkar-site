@@ -105,6 +105,17 @@ nav a{
   padding: 1rem;
 }
 
+footer {
+background: #1b2051;
+color: #eaf6f7;
+width: 100%;
+margin: 0;
+padding: 1rem;
+box-sizing: border-box;
+text-align: center;
+font-weight: bold;
+}
+
 .media-holder {
   width: 100%;
   margin: 4rem 0;
@@ -162,15 +173,4 @@ nav a{
   nav li {
     width: 25%;
   }
-}
-
-  footer {
-  background: #1b2051;
-  color: #eaf6f7;
-  width: 100%;
-  margin: 0;
-  padding: 1rem;
-  box-sizing: border-box;
-  text-align: center;
-  font-weight: bold;
 }
