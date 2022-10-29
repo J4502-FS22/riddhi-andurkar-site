@@ -87,6 +87,10 @@ nav li, nav li a{
   align-items: center;
 }
 
+nav a{
+  color: #1b2051;
+}
+
 .active{
   background-color: #1b2051;
   color: #eaf6f7
