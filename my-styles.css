@@ -69,12 +69,20 @@ a{
   font-style: italic;
   font-weight: lighter;
 }
-ul,ol{
-  list-style-type: none
+ol li{
+  text-transform: uppercase;
 }
-nav ul li{
+
+nav li, nav li a{
   width: 100%;
+  display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+
+.active{
+  background-color: #1b2051;
+  color: #eaf6f7
+  padding: 1rem;
 }
