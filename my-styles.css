@@ -62,6 +62,7 @@ h2{
   background-color: #1b2051;
   color: #eaf6f7;
   margin: 0;
+  text-align: center;
 }
 h3{
   font-family: 'Inter Tight', sans-serif;
@@ -131,7 +132,7 @@ font-weight: bold;
 
 .image-holder img{
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -160,4 +161,20 @@ font-weight: bold;
     width: 50%;
   }
 
+}
+
+/*When the browser is at least 800px wide*/
+@media (min-width: 800px) {
+
+  .image-holder {
+    width: 250px;
+  }
+
+  .text-holder {
+    width: calc(100% - 250px);
+  }
+
+  nav li {
+    width: 25%;
+  }
 }
