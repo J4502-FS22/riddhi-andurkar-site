@@ -138,7 +138,7 @@ font-weight: bold;
 @media (min-width: 555px) {
 
   media-holder{
-    flex-direction: row;
+    flex-direction: column;
   }
 
   image-holder{
@@ -153,11 +153,11 @@ font-weight: bold;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-    }
+  }
 
   nav li{
       width: 50%
-    }
+  }
 }
 
 /*When the browser is at least 800px wide*/
@@ -173,5 +173,5 @@ font-weight: bold;
 
   nav li {
     width: 25%;
-}
+  }
 }
