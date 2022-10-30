@@ -166,6 +166,9 @@ font-weight: bold;
 
   .image-holder {
     width: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .text-holder {
