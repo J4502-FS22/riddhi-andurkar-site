@@ -59,7 +59,8 @@ h2{
   font-family: 'Yrsa', serif;
   font-size: 2rem;
   font-style: normal;
-  color: #1b2051;
+  background-color: #1b2051;
+  color: #eaf6f7;
   margin: 0;
 }
 h3{
