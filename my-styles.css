@@ -46,7 +46,6 @@ nav a{
 a{
   font-style: italic;
   font-weight: lighter;
-  text-decoration: none;
 }
 
 h1{
@@ -139,7 +138,7 @@ font-weight: bold;
 @media (min-width: 555px) {
 
   media-holder{
-    flex-direction: row;
+    flex-direction: column;
   }
 
   image-holder{
