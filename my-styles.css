@@ -21,6 +21,10 @@ main {
   margin: 1rem auto;
 }
 
+img{
+  width: 250pc
+}
+
     /*beginning updated nav and ul, ol*/
 nav {
       color: #eaf6f7;
@@ -165,11 +169,11 @@ font-weight: bold;
 @media (min-width: 800px) {
 
   .image-holder {
-    width: 300px;
+    width: 250px;
   }
 
   .text-holder {
-    width: calc(100% - 300px);
+    width: calc(100% - 250px);
   }
 
   nav li {
