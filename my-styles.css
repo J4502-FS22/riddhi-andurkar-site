@@ -159,19 +159,3 @@ font-weight: bold;
       width: 50%
   }
 }
-
-/*When the browser is at least 800px wide*/
-@media (min-width: 800px) {
-
-  .image-holder {
-    width: 400px;
-  }
-
-  .text-holder {
-    width: calc(100% - 400px);
-  }
-
-  nav li {
-    width: 25%;
-  }
-}
