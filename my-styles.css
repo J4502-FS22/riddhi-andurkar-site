@@ -138,7 +138,7 @@ font-weight: bold;
 @media (min-width: 555px) {
 
   media-holder{
-    flex-direction: column;
+    flex-direction: row;
   }
 
   image-holder{
@@ -165,9 +165,6 @@ font-weight: bold;
 
   .image-holder {
     width: 250px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
   }
 
   .text-holder {
