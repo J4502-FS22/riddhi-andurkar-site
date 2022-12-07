@@ -1,6 +1,7 @@
 /* font-family: 'Inter Tight', sans-serif;
 font-family: 'Playfair Display', serif
 font-family: 'Yrsa', serif; */
+
 .skip-link {
   position: absolute;
   width: 1px;
@@ -9,6 +10,15 @@ font-family: 'Yrsa', serif; */
   margin: -1px;
   overflow: hidden;
   border: 0;
+}
+
+.skip-link:focus{
+  width: unset;
+  height: unset;
+  position: relative;
+  padding: unset;
+  margin: unset;
+  font-size: 2rem;
 }
 
 html{
