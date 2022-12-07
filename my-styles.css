@@ -142,8 +142,8 @@ font-weight: bold;
   margin-inline-start: 0;
   margin-inline-end: 0;
   margin: 4rem auto;
-  width: 100%;
-  max-width:750px;
+  width:750px;
+  height: 500px;
 }
 
 .image-gallery img {
