@@ -136,17 +136,16 @@ font-weight: bold;
   margin: 0 auto;
 }
 
-.image-gallery {
+.gallery-image {
   margin-block-start: 0;
   margin-block-end: 0;
   margin-inline-start: 0;
   margin-inline-end: 0;
   margin: 4rem auto;
-  width:750px;
-  height: 500px;
+  max-width:750px;
 }
 
-.image-gallery img {
+.gallery-image img {
   width: 100%;
 }
 
