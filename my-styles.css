@@ -169,6 +169,32 @@ font-weight: bold;
   width: 100%;
 }
 
+.button_holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.hideThis {
+  display: none;
+}
+
+button {
+  background-color: #E3AD16;
+  border: none;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  cursor: pointer;
+  width: 100px;
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
+}
+
+
 /*When the browser is at least 555px wide*/
 @media (min-width: 555px) {
 
